@@ -1,0 +1,30 @@
+
+--- SIMULATING TRACKPAD GESTURE ---
+[useTrackpadGesture] Rendered: 1 times (Expected only on tracking state changes)
+Frame 01    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 0 (ServerB: 0)
+Frame 02    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 1 (ServerB: 1)
+Frame 03    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 1 (ServerB: 1)
+Frame 04 [DROPPED] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 2 (ServerB: 1)
+Frame 05    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 2 (ServerB: 2)
+Frame 06    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 3 (ServerB: 3)
+Frame 07    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 3 (ServerB: 3)
+Frame 08 [DROPPED] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 4 (ServerB: 3)
+Frame 09    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 4 (ServerB: 4)
+Frame 10    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 5 (ServerB: 5)
+Frame 11    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 5 (ServerB: 5)
+Frame 12 [DROPPED] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 5 (ServerB: 5)
+Frame 13    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 6 (ServerB: 6)
+Frame 14    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 6 (ServerB: 6)
+Frame 15    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 7 (ServerB: 7)
+Frame 16 [DROPPED] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 7 (ServerB: 7)
+Frame 17    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 8 (ServerB: 8)
+Frame 18    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 8 (ServerB: 8)
+Frame 19    [SENT] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 9 (ServerB: 9)
+Frame 20 [DROPPED] | Raw dx: 0.45 | Delta: 0 (ServerA: 0) | Abs: 9 (ServerB: 9)
+
+--- A/B COMPARISON RESULTS (20 Frames) ---
+TRUE Mathematical Distance: 9.00px
+Mode A (Delta) Server Pos:  0px  <-- Lost subpixels & dropped packets
+Mode B (Abs) Server Pos:    9px  <-- Perfectly accurate
+Difference: Mode A lost 9.00px of user movement.
+

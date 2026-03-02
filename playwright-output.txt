@@ -1,0 +1,6 @@
+
+Running 1 test using 1 worker
+
+  ✓  1 trackpad-test-2.spec.ts:3:1 › simulate touch to capture instrumentation (2.8s)
+
+  1 passed (3.6s)
